@@ -1,4 +1,4 @@
-import 'package:pinboard/pinboard.dart';
+import './pinboard.dart';
 
 main() async {
   var client = Pinboard(username: 'test');
@@ -23,7 +23,7 @@ main() async {
     toread: false,
   );
 
-  // Delete a bookmark.
+  // Delete a bookmark.d
   var deletePostResponse = await client.posts.delete(
     url: 'https://getfirefox.com',
   );
